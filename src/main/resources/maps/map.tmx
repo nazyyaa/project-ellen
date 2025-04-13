@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.11.90" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="60" height="50" tilewidth="16" tileheight="16" infinite="0" nextlayerid="7" nextobjectid="217">
+ <tileset firstgid="1" name="tileset01" tilewidth="16" tileheight="16" tilecount="500" columns="20">
+  <image source="tileset01.png" width="320" height="400"/>
+ </tileset>
+ <tileset firstgid="501" name="tileset02" tilewidth="16" tileheight="16" tilecount="500" columns="20">
+  <image source="tileset02.png" width="320" height="400"/>
+ </tileset>
+ <layer id="1" name="background" width="60" height="50">
+  <data encoding="base64" compression="zlib">
+   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
+  </data>
+ </layer>
+ <layer id="2" name="walls" width="60" height="50" visible="0">
+  <data encoding="base64" compression="zlib">
+   eAHtmn1u2zAMxT30orrbLpL/twN0n93WfWEDdobxJXvwA0FRku24cTECjCSKpPizHNtpfX83TW/vpmI6vTN9b/rB9KPpg+kn08+mX0wfTb+afjP9bvrD9Kfpvekb06U51sajBqzdo//WOjrvuf4eXjs2xZjL9ESC8yKS3y+myWvkh/oju7fxWDw172vjisSzYhyJfadKZPe2pbxRHaM2rUV5fR7183MYQ+w6Us6dxscaXqR+aet5hZ11oE+JbNGcZ6JP1DKnXTtLNO9te/L6tXXMumFbwmv3i6L5av0WL67bVM3B+vzeYgzh/GXU/lT/JbyPO/HWSFAzrrlU+CmTj9M5z9saI5c9FxSfMxqv3d8oJ2yo0d9jlMnHZXP0zXzsWajQL2tbvLXYbG3EYH5Ua2vRnuWz579Cv6yt8Wa5OZflhc+IjPr73PbMW7wtGtd4I98R22j9o/6+FnvOL94WjZ8Lr/22ORwv9ri1z/Txrf2eOxQvz70W76vKdcF+w27G649l75gMfF6JWvqw7eEFM1TFvpdFx7V+z/e3VUMtN+0Rp9rohxZrUcGUqcbZvb7ouNZfw8u60PaIMmq/J7blY/lKywfza3hHalZf3++ps+Xznzc+Qmv2N84YW/2e6jiOGLPusb9jFc2/K5UVfRW9JkR99dX+lryaV/tRPWqjr+fzY/qh1Xj2OY9xTfbira2vtXk+P9YcZPQtfDSnxqC/Jy/r1xqy2tTP9z0nx/DLcj5HXn9sdLwnr67L/i/7rvUqY9ByP7XV+Vr/2rz4H5PWxH6tnl478iyRPXh9XTgGvWL1pX/37M1Dv714wUhOtqwhazNenisj7VF5s2OUze3FqzWM7K/G7dnveX6O6uF57NvI95ZsS3lviQG1XPt83or3j91/RlTXxbsWUMiReC8Vtz9xXLxsxTtyL2j5+hp1DAbE9wjPA9vL870bMVvy9tTQ8lEW/q9Q22jPspzwV1769p7P9Pfvb7BO5kabSc2PeRDr/18I2xJe7jPiKdfkjdgiG2qJeLm/mPe8ZGELHxXafVwvb+1+xDojDti8RH7wYR70ub8ZL/wg5LqM5s9obcyavcxe9V6Ltx7ZNxPxaiS41MfP6Rj9UV68J0hF/DV5waEsuq9YG+LPy4t13l+dx/uNGEfMtf0lK1qI52WNW7X6TI0+mdmi/kwvVc6fNV/lJRuiarx4P01j5hWO0dPalddXz/3F+2ka4/1ufay1c0+jmsmL99MQo9+3yP9Wbcqb1Uhea0/2nTpZ3GHVGAre1c6UvPZ8dTqy2vXnlHHqHJj/AulZDuw=
+  </data>
+ </layer>
+ <objectgroup id="3" name="actors">
+  <object id="50" name="Ripley" x="32.1818" y="719.636" width="32" height="31.6364"/>
+  <object id="87" name="RemoteControl" x="224.333" y="82" width="81.3333" height="45"/>
+  <object id="88" name="Reactor" x="385.333" y="290.333" width="80.6667" height="77.3333"/>
+  <object id="89" name="Teleport 1-2" x="680.333" y="83" width="55.3333" height="46.3333"/>
+  <object id="93" name="Teleport 2-2" x="711.667" y="176" width="56.3333" height="46.3333"/>
+  <object id="94" name="SpawnPoint" x="656.667" y="305.333" width="31.6667" height="31"/>
+  <object id="95" name="Teleport 1-1" x="711.333" y="720.333" width="56.3333" height="46.6667"/>
+  <object id="98" name="SpawnPoint" x="129.333" y="481" width="30.6667" height="29"/>
+  <object id="99" name="SpawnPoint" x="336.333" y="449.333" width="32.3333" height="32.3333"/>
+  <object id="100" name="SpawnPoint" x="431.334" y="560.667" width="33.3333" height="33"/>
+  <object id="102" name="Ammo" x="560.188" y="656.375" width="16" height="16"/>
+  <object id="104" name="Ammo" x="543.636" y="576.182" width="17.0909" height="15.8182"/>
+  <object id="105" name="Energy" x="512" y="672.182" width="17.2727" height="16.1818"/>
+  <object id="106" name="Energy" x="544" y="623.273" width="17.6364" height="16.9091"/>
+  <object id="107" name="Ammo" x="625" y="81.3333" width="16" height="15.6667"/>
+  <object id="108" name="AccessCard" x="641.333" y="96.3333" width="16.6667" height="18"/>
+  <object id="115" name="Fan 2" x="671.5" y="608" width="32.5" height="31.5"/>
+  <object id="117" name="Hammer" x="143.5" y="79" width="17" height="18"/>
+  <object id="121" name="AccessCard" x="719" y="414.75" width="19" height="20.5"/>
+  <object id="123" name="AccessCard" x="624.455" y="592.091" width="16.1818" height="16.9091"/>
+  <object id="124" name="hDoor Main" x="368.5" y="688.75" width="31.25" height="15.25"/>
+  <object id="125" name="hDoor Storage" x="624.125" y="688.563" width="31.5625" height="13.625"/>
+  <object id="128" name="vDoor Teleport 2" x="400.5" y="97.75" width="15.5" height="29.25"/>
+  <object id="130" name="Teleport 2-1" x="336" y="80.3333" width="56.6667" height="48"/>
+  <object id="131" name="Alien" x="36.6667" y="610.667" width="23.6667" height="25"/>
+  <object id="132" name="Alien" x="83.3333" y="51.6667" width="25" height="27"/>
+  <object id="133" name="Alien" x="276" y="147.333" width="25.6667" height="27.3333"/>
+  <object id="134" name="Alien" x="228.333" y="210.333" width="27.6667" height="28.3333"/>
+  <object id="135" name="Alien" x="52" y="354" width="25.6667" height="28.6667"/>
+  <object id="136" name="Alien" x="353.667" y="497.333" width="29.3333" height="29.3333"/>
+  <object id="137" name="Alien" x="145" y="415.667" width="30.6667" height="32.3333"/>
+  <object id="138" name="Alien" x="273.667" y="321.667" width="30" height="28.3333"/>
+  <object id="139" name="Alien" x="336" y="305.333" width="31" height="29"/>
+  <object id="140" name="Alien" x="368.667" y="220.333" width="31.6667" height="29.3333"/>
+  <object id="141" name="Alien" x="528" y="305" width="31.3333" height="31"/>
+  <object id="142" name="Alien" x="511.333" y="512.333" width="33" height="32"/>
+  <object id="143" name="Alien" x="576.667" y="591" width="31.6667" height="32"/>
+  <object id="144" name="Alien" x="592.667" y="514" width="32" height="30.3333"/>
+  <object id="145" name="Alien" x="503.333" y="625" width="28.3333" height="30.3333"/>
+  <object id="147" name="Alien" x="526.667" y="670.333" width="32.3333" height="30"/>
+  <object id="148" name="Alien" x="64.6667" y="545.333" width="33" height="31.3333"/>
+  <object id="149" name="Alien" x="114" y="722.333" width="30.6667" height="29"/>
+  <object id="150" name="Alien" x="447.667" y="737" width="31.3333" height="28.3333"/>
+  <object id="151" name="Alien" x="672.667" y="736" width="30.3333" height="30.3333"/>
+  <object id="152" name="Alien" x="514.333" y="723" width="30.3333" height="27.6667"/>
+  <object id="153" name="Alien" x="305.667" y="723.333" width="30.3333" height="28"/>
+  <object id="154" name="SpawnPoint" x="480.667" y="127" width="31" height="32.3333"/>
+  <object id="155" name="Energy" x="145.083" y="288.5" width="15.1667" height="16.3333"/>
+  <object id="160" name="vDoor Final Reactor" x="448.364" y="32.7273" width="15.6364" height="30.7273"/>
+  <object id="161" name="Alien" x="451.25" y="98.25" width="25.75" height="26.25"/>
+  <object id="164" name="MotherAlien" x="55" y="397" width="112" height="169.5"/>
+  <object id="166" name="Helicopter" x="587.5" y="207" width="54" height="52.5"/>
+  <object id="168" name="Alien" x="530.5" y="64.5" width="29.5" height="30.5"/>
+  <object id="169" name="Alien" x="530" y="129" width="27.5" height="30"/>
+  <object id="170" name="Alien" x="544.5" y="175" width="29" height="29.5"/>
+  <object id="173" name="Ventilator" x="368.75" y="192.25" width="32.25" height="31.5"/>
+  <object id="174" name="Ventilator" x="448.75" y="192" width="32" height="31.5"/>
+  <object id="176" name="Fan 1" x="240.75" y="399.75" width="34.25" height="32.25"/>
+  <object id="180" name="FireExtinguisher" x="624.303" y="447.03" width="16.3636" height="19.3333"/>
+  <object id="181" name="SpawnPoint" x="830.667" y="622.667" width="33.3333" height="36"/>
+  <object id="182" name="Alien" x="817.333" y="67.3333" width="30" height="30"/>
+  <object id="183" name="Alien" x="864.667" y="226" width="28.6667" height="30.6667"/>
+  <object id="184" name="Alien" x="866.667" y="352.667" width="30" height="32.6667"/>
+  <object id="187" name="Boss" x="863" y="142.667" width="34.6667" height="33.3333"/>
+  <object id="190" name="vDoor Boss Room" x="768" y="511.667" width="16.3333" height="32.3333"/>
+  <object id="192" name="vDoor Final Boss" x="929.25" y="606.75" width="15.25" height="32.25"/>
+  <object id="193" name="Energy" x="225" y="33" width="15" height="15"/>
+  <object id="195" name="NonStop" x="80.5" y="208.5" width="16.5" height="15.25"/>
+  <object id="196" name="NonStop" x="161.25" y="33.25" width="14.75" height="15.25"/>
+  <object id="197" name="NonStop" x="816" y="478" width="17.25" height="17.75"/>
+  <object id="198" name="NonStop" x="609.667" y="160" width="15.3333" height="17.3333"/>
+  <object id="199" name="NonStop" x="417.333" y="223.667" width="16" height="18.6667"/>
+  <object id="202" name="Chest" x="526.727" y="594.667" width="15.4545" height="15.4545"/>
+  <object id="203" name="HealthBooster" x="127" y="206.333" width="19" height="20"/>
+  <object id="204" name="HealthBooster" x="736.333" y="271.667" width="16.6667" height="17.3333"/>
+  <object id="207" name="HealthBooster" x="625" y="623.667" width="16.6667" height="17.3333"/>
+  <object id="208" name="HealthBooster" x="225" y="144.333" width="16.6667" height="17.3333"/>
+  <object id="209" name="AmmoBooster" x="704.667" y="528" width="16.6667" height="17.3333"/>
+  <object id="211" name="AmmoBooster" x="737.167" y="367.833" width="16.6667" height="17.3333"/>
+  <object id="212" name="AmmoBooster" x="65.1667" y="287.833" width="16.6667" height="17.3333"/>
+  <object id="213" name="AmmoBooster" x="272.667" y="271.333" width="16.6667" height="17.3333"/>
+  <object id="216" name="Chest" x="272" y="207.5" width="17.25" height="17.25"/>
+ </objectgroup>
+</map>
